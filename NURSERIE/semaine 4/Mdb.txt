@@ -1,0 +1,43 @@
+table 1 : categorie de musique /type
+
+	-rap fr
+	-rap us
+	-classique
+	-pop rock
+	-electro
+	-k pop
+
+
+table 2 : groupes/artiste (fk_id_cat,....album) 
+
+	-orelsan (a)
+	-iam (g)
+	-keny west (a)
+	-brockhampton (g)
+	-mozart (a)
+	-beethoven (a)
+	-the weekend (a)
+	-u2 (g)
+	-moby (a)
+	-daft punk(g)
+	-bts(g)
+	-black pink(g)
+
+
+table 3 : album
+
+	- iam  :micro d'argent,ombre et lumiere
+	- orel san :civilastion , la fete est fini
+	- keny west :the college drop out,jesus is king
+	- brockhampton : road runner,saturation
+	- mozart : requiem,the essential
+	- beethoven : symphonie n°9 , the essential
+	- the weekend
+	- us
+	- 
+
+
+
+
+
+table 3 : album (fk_id_groupe)
